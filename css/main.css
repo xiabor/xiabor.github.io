@@ -1300,7 +1300,7 @@ pre .javascript .function {
 .post-body {
   overflow-wrap: break-word;
   word-wrap: break-word;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Source Han Serif SC', 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .post-body .exturl .fa {
   font-size: 14px;
@@ -1577,7 +1577,7 @@ pre .javascript .function {
 .posts-expand .post-meta {
   margin: 3px 0 60px 0;
   color: #999;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Source Han Serif SC', 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
   text-align: center;
 }
@@ -1715,6 +1715,175 @@ pre .javascript .function {
 }
 .fancybox-close,
 .fancybox-close:hover {
+  border: none;
+}
+#rewardButton {
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+  letter-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+}
+#rewardButton span {
+  display: inline-block;
+  width: 80px;
+  height: 35px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-size: 18px;
+  background: #f7c739;
+}
+#rewardButton span:hover {
+  background: #f7877f;
+}
+#QR {
+  padding-top: 20px;
+}
+#QR a {
+  border: 0;
+}
+#QR img {
+  width: 300px;
+  max-width: 100%;
+  display: inline-block;
+  margin: 0.8 2em 0 2em;
+}
+#QR p {
+  text-align: center;
+}
+#QR > #div:hover p {
+  animation: roll 0.1s infinite linear;
+  -webkit-animation: roll 0.1s infinite linear;
+  -moz-animation: roll 0.1s infinite linear;
+}
+@-moz-keyframes roll {
+  from {
+    -webkit-transform: rotateZ(30deg);
+    -moz-transform: rotateZ(30deg);
+    -ms-transform: rotateZ(30deg);
+    -o-transform: rotateZ(30deg);
+    transform: rotateZ(30deg);
+  }
+  to {
+    -webkit-transform: rotateZ(-30deg);
+    -moz-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    -o-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
+  }
+}
+@-webkit-keyframes roll {
+  from {
+    -webkit-transform: rotateZ(30deg);
+    -moz-transform: rotateZ(30deg);
+    -ms-transform: rotateZ(30deg);
+    -o-transform: rotateZ(30deg);
+    transform: rotateZ(30deg);
+  }
+  to {
+    -webkit-transform: rotateZ(-30deg);
+    -moz-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    -o-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
+  }
+}
+@-o-keyframes roll {
+  from {
+    -webkit-transform: rotateZ(30deg);
+    -moz-transform: rotateZ(30deg);
+    -ms-transform: rotateZ(30deg);
+    -o-transform: rotateZ(30deg);
+    transform: rotateZ(30deg);
+  }
+  to {
+    -webkit-transform: rotateZ(-30deg);
+    -moz-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    -o-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
+  }
+}
+@keyframes roll {
+  from {
+    -webkit-transform: rotateZ(30deg);
+    -moz-transform: rotateZ(30deg);
+    -ms-transform: rotateZ(30deg);
+    -o-transform: rotateZ(30deg);
+    transform: rotateZ(30deg);
+  }
+  to {
+    -webkit-transform: rotateZ(-30deg);
+    -moz-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    -o-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
+  }
+}
+.post-copyright {
+  margin: 2em 0 0;
+  padding: 0.5em 1em;
+  border-left: 3px solid #ff1700;
+  background-color: #f9f9f9;
+  list-style: none;
+}
+.post-copyright i.fa {
+  font-size: 15px;
+}
+.post-widgets {
+  border-top: 1px solid #eee;
+  padding-top: 9px;
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.post-widgets .post-meta-divider {
+  height: 25px;
+  color: #999;
+}
+.wp_rating {
+  height: 20px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 20px;
+  padding-top: 6px;
+}
+.social-like {
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.vk_like {
+  width: 85px;
+  height: 21px;
+  padding-top: 7px;
+  align-self: center;
+}
+.fb_like {
+  height: 30px;
+  align-self: center;
+}
+.bdsharebuttonbox {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.bdsharebuttonbox a {
+  border: none;
+}
+.bdshare-slide-button-box a {
   border: none;
 }
 .rtl.post-body p,
@@ -1928,7 +2097,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffff6a;
+  background: #ff2685;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2714,7 +2883,7 @@ body {
 }
 .headband {
   height: 1.5px;
-  background-image: linear-gradient(90deg, #f79533 0%, #f37055 15%, #ef4e7b 30%, #0ff 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%);
+  background-image: linear-gradient(90deg, #6dba82 0%, #07b39b 15%, #1098ad 30%, #5073b8 44%, #0ff 58%, #ef4e7b 72%, #f37055 86%, #f79533 100%);
 }
 .header {
   line-height: 1.5;
@@ -2739,7 +2908,7 @@ body {
   width: 100%;
 }
 .site-meta {
-  background-image: linear-gradient(90deg, #59b977 0%, #0acaaf 15%, #0da0bf 30%, #5073b8 44%, #ba57bb 58%, #ea5a82 72%, #f76a6a 86%, #f6b145 100%);
+  background-image: linear-gradient(90deg, #f6b145 0%, #f76a6a 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%);
 }
 .brand {
   background-color: rgba(255,255,255,0);
@@ -2747,7 +2916,7 @@ body {
   padding: 0px;
 }
 .site-title {
-  font-size: 50px;
+  font-size: 55px;
   font-family: 'Lato', "STXingkai", "PingFang SC", sans-serif;
   font-weight: normal;
   color: #fff;
@@ -2756,15 +2925,15 @@ body {
 }
 .site-subtitle {
   margin: 0px;
-  font-family: STXingkai;
-  font-size: 22px;
+  font-family: MathJax_Math-italic;
+  font-size: 20px;
   letter-spacing: 3px;
   padding-bottom: 3px;
   font-weight: lighter;
   color: #fff;
   border-bottom-width: 3px;
   border-bottom-style: solid;
-  border-bottom-color: #00cdcd;
+  border-bottom-color: #919191;
 }
 .menu {
   text-align: center;
@@ -2851,8 +3020,7 @@ body {
   color: #555;
   border-top-width: 3px;
   border-top-style: solid;
-  border-top-color: #90ee90;
-  box-shadow: 0px -10px 10px 0px rgba(0,0,0,0.15);
+  border-top-color: #d2d2d2;
 }
 .posts-expand .post-tags a {
   border-bottom: none;
@@ -2866,6 +3034,13 @@ body {
 }
 .posts-expand .post-tags a:hover {
   background: #93fbfc;
+}
+.wp_rating {
+  height: 20px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 40px;
+  padding-top: 10px;
 }
 .post-widgets {
   padding-top: 0px;
@@ -2885,6 +3060,15 @@ body {
   background-color: #fff;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
   margin: 80px 0px 40px 0px;
+}
+.post-copyright {
+  margin: 2em 0 0;
+  padding: 0.5em 1em;
+  border-left: 3px solid #ff1700;
+  background-color: #f9f9f9;
+  list-style: none;
+  color: #444;
+  font-size: 13px;
 }
 .post-body p a {
   color: #0593d3;
@@ -3106,7 +3290,7 @@ img:hover {
   }
 }
 .posts-collapse::after {
-  margin-left: -2px;
+  margin-left: -4px;
   background-image: linear-gradient(180deg, #f79533 0, #f37055 15%, #ef4e7b 30%, #0ff 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%);
 }
 .posts-collapse .collection-title::before {
@@ -3341,7 +3525,7 @@ code.description {
 }
 @media (max-width: 767px) {
   .main {
-    padding-bottom: 180px;
+    padding-bottom: 120px;
   }
   .posts-expand {
     margin: 15px;

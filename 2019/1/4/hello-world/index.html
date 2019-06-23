@@ -50,6 +50,38 @@
 
 
 
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+
+  
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|Source Han Serif SC:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext">
+  
+
+
+
 
 
 
@@ -107,7 +139,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hello World">
 <meta property="og:url" content="https://xiabor.github.io/2019/1/4/hello-world/index.html">
-<meta property="og:site_name" content="夏博のBlog">
+<meta property="og:site_name" content="XiaBoのBlog">
 <meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:updated_time" content="2019-06-18T16:00:11.244Z">
@@ -117,7 +149,7 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="夏博のBlog" type="application/atom+xml">
+  <link rel="alternate" href="/atom.xml" title="XiaBoのBlog" type="application/atom+xml">
 
 
 
@@ -132,7 +164,7 @@
   };
 </script>
 
-  <title>Hello World | 夏博のBlog</title>
+  <title>Hello World | XiaBoのBlog</title>
   
 
 
@@ -191,7 +223,7 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">夏博のBlog</span>
+        <span class="site-title">XiaBoのBlog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -232,14 +264,14 @@
 
     
 
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+    <a href="/home" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
 
   </li>
         
         
         
           
-          <li class="menu-item menu-item-about">
+          <li class="menu-item menu-item-archives">
 
     
     
@@ -249,24 +281,7 @@
 
     
 
-    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
-
-  </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-tags">
-
-    
-    
-    
-      
-    
-
-    
-
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
 
   </li>
         
@@ -290,7 +305,7 @@
         
         
           
-          <li class="menu-item menu-item-archives">
+          <li class="menu-item menu-item-tags">
 
     
     
@@ -300,7 +315,24 @@
 
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
 
   </li>
 
@@ -355,13 +387,13 @@
     <link itemprop="mainEntityOfPage" href="https://xiabor.github.io/2019/1/4/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Felicity Smoak">
+      <meta itemprop="name" content="XiaBo">
       <meta itemprop="description" content>
       <meta itemprop="image" content="/images/avatar.png">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="夏博のBlog">
+      <meta itemprop="name" content="XiaBoのBlog">
     </span>
 
     
@@ -510,13 +542,77 @@
       
     
     
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div></div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById(&quot;QR&quot;); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>赞赏</span>
+  </button>
+  <div id="QR" style="display: none;">
 
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="XiaBo 微信支付">
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="XiaBo 支付宝">
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        
+
+
+
+  
+
+
+
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>XiaBo</li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    
+    <a href="https://xiabor.github.io/2019/1/4/hello-world/" title="Hello World">https://xiabor.github.io/2019/1/4/hello-world/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 【非商业使用】许可协议，转载请注明作者及原文链接！喜欢本文记得分享，底部五星好评哦！</li>
+</ul>
+
+      </div>
     
 
     <footer class="post-footer">
       
 
       
+      
+        <div class="post-widgets">
+        
+          <div class="wp_rating">
+            <div id="wpac-rating"></div>
+          </div>
+        
+
+        
+
+        
+        </div>
       
       
 
@@ -530,7 +626,7 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/5/18/MarkDone/" rel="prev" title="My first article that write by MarkDone">
+              <a href="/2019/5/10/MarkDone/" rel="prev" title="My first article that write by MarkDone">
                 My first article that write by MarkDone <i class="fa fa-chevron-right"></i>
               </a>
             
@@ -597,9 +693,11 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="Felicity Smoak">
+            <a href="/">
+              <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="XiaBo">
+            </a>
             
-              <p class="site-author-name" itemprop="name">Felicity Smoak</p>
+              <p class="site-author-name" itemprop="name">XiaBo</p>
               <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
@@ -610,7 +708,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">5</span>
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -635,7 +733,7 @@
                 
                 
                 <div class="site-state-item site-state-tags">
-                  
+                  <a href="/tags/index.html">
                     
                     
                       
@@ -646,7 +744,7 @@
                     
                     <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">标签</span>
-                  
+                  </a>
                 </div>
               
             </nav>
@@ -759,19 +857,11 @@
         
         
           <li>
-            <a href="/2019/6/20/test2/" title="test2" target="_blank">test2</a>
+            <a href="/2019/5/14/Markdown2/" title="Markdown笔记" target="_blank">Markdown笔记</a>
           </li>
         
           <li>
-            <a href="/2019/6/14/Markdown2/" title="Markdown2" target="_blank">Markdown2</a>
-          </li>
-        
-          <li>
-            <a href="/2019/5/30/test/" title="test" target="_blank">test</a>
-          </li>
-        
-          <li>
-            <a href="/2019/5/18/MarkDone/" title="My first article that write by MarkDone" target="_blank">My first article that write by MarkDone</a>
+            <a href="/2019/5/10/MarkDone/" title="My first article that write by MarkDone" target="_blank">My first article that write by MarkDone</a>
           </li>
         
           <li>
@@ -801,7 +891,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -821,7 +911,8 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+        <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
     <i class="fa fa-heartbeat"></i>
   </span>
@@ -839,25 +930,24 @@
 
 
 
-
+<div class="powered-by">
 <span id="busuanzi_container_site_pv">
     <i class="fa fa-eye"></i>
     <font size="2.5" face="微软雅黑">
     总访问量<span id="busuanzi_value_site_pv"></span>次 |
-
 <span id="busuanzi_container_site_pv">
     <i class="fa fa-user"></i>
     <font size="2.5" face="微软雅黑">
     访客数<span id="busuanzi_value_site_uv"></span>人 |
-
+</font></span></font></span></div>
 <div class="theme-info">
   <div class="powered-by"></div>
   <i class="fa fa-pencil"></i>
   <font size="2.5" face="微软雅黑">
-  <span class="post-count">总字数2k字</span>
+  <span class="post-count">总字数2.1k字</span>
 </font></div><br>
 <!-- 在网页底部添加网站运行时间 -->
-</font></span>
+
 <i class="fa fa-cog fa-spin fa-lg fa-fw"></i>
 <span class="sr-only">Loading... </span>
 <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
@@ -872,11 +962,11 @@
         mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
         seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
         snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
-        document.getElementById("timeDate").innerHTML = "已运行 "+dnum+" Days ";
-        document.getElementById("times").innerHTML = hnum + " Hours " + mnum + " m " + snum + " s";
+        document.getElementById("timeDate").innerHTML = "已运行 "+dnum+" 天 ";
+        document.getElementById("times").innerHTML = hnum + " 时 " + mnum + " 分 " + snum + " 秒 ";
  }
 setInterval("createtime()",250);
-</script></font></span>
+</script>
         
 
 
@@ -1107,6 +1197,25 @@ setInterval("createtime()",250);
   
 
   
+  <script>
+    wpac_init = window.wpac_init || [];
+    wpac_init.push({
+      widget: 'Rating',
+      id: 19322,
+      el: 'wpac-rating',
+      color: 'f79533'
+    });
+    (function() {
+      if ('WIDGETPACK_LOADED' in window) return;
+      WIDGETPACK_LOADED = true;
+      var mc = document.createElement('script');
+      mc.type = 'text/javascript';
+      mc.async = true;
+      mc.src = '//embed.widgetpack.com/widget.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+    })();
+  </script>
+
 
   
 
@@ -1121,5 +1230,10 @@ setInterval("createtime()",250);
   
   <script type="text/javascript" color="255,255,0" opacity="1" zindex="-1" count="100" src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
   
+  
+<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas>
+<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+<script type="text/javascript" src="/js/src/fireworks.js"></script>
+
 </body>
 </html>
