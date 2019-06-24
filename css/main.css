@@ -2097,7 +2097,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff2685;
+  background: #b4736b;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3523,7 +3523,7 @@ code.description {
     display: none !important;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   .main {
     padding-bottom: 120px;
   }
@@ -3536,12 +3536,15 @@ code.description {
   }
   .posts-expand .post-meta {
     font-size: 10px;
+    text-align: left;
   }
   .post-meta-item-text {
-    display: contents;
+    display: inline;
   }
   .post {
     margin-bottom: 30px !important;
+    margin-left: -8px;
+    margin-right: -8px;
     padding: 20px 15px 15px 15px !important;
   }
   .post-body h2,
@@ -3552,7 +3555,7 @@ code.description {
     margin-left: -14px;
     margin-bottom: 5px;
     padding-left: 14px;
-    border-left: 4px solid #0ee;
+    border-left: 2px solid #0ee;
   }
   .posts-expand .post-tags {
     margin-top: 10px;
