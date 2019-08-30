@@ -2097,7 +2097,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffe542;
+  background: #95ff6f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3208,12 +3208,13 @@ img:hover {
   display: none;
 }
 .site-description {
-  letter-spacing: 5px;
-  font-size: 15px;
+  letter-spacing: 1.5px;
+  font-size: 12px;
   font-weight: bold;
   margin-top: 15px;
+  margin-bottom: 15px;
   margin-left: 13px;
-  color: #f37055;
+  color: #00cdcd;
 }
 .site-state {
   line-height: 1.3;
