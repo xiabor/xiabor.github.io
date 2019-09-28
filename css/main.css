@@ -2097,7 +2097,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e432ff;
+  background: #abf1ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2977,13 +2977,14 @@ body {
 }
 .post-button .btn {
   color: #555 !important;
+  margin-top: 15px;
   background-color: #fff;
   border-radius: 3px;
   font-size: 15px;
   box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.35);
   border: none !important;
   transition-property: unset;
-  padding: 0px 15px;
+  padding: 2px 15px;
 }
 .post-button .btn:hover {
   color: #fff !important;
@@ -3102,15 +3103,19 @@ h6 {
   padding-top: 5px;
 }
 .posts-expand .post-body img {
-  border: none;
-  padding: 0px;
+  border: #fff;
+  padding: 2px;
 }
 .post-gallery .post-gallery-img img {
   padding: 3px;
 }
-.posts-expand .post-body img {
-  border: none;
-  padding: 0px;
+img {
+  background: #fff;
+  border: 1px solid #fff;
+  border-width: 5px 5px 5px 5px;
+  box-shadow: 1.5px 1px 7px #333;
+  -webkit-box-shadow: 1.5px 1px 7px #333;
+  -moz-box-shadow: 1.5px 1px 7px #333;
 }
 .post-gallery .post-gallery-img img {
   padding: 3px;
@@ -3315,12 +3320,6 @@ img:hover {
   left: 20px;
   top: 3px;
 }
-.post {
-  margin-bottom: 50px;
-  padding: 5px 5px 5px 5px;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-  background-color: #fff;
-}
 .posts-collapse::after {
   margin-left: -4px;
   background-image: linear-gradient(180deg, #f79533 0, #f37055 15%, #ef4e7b 30%, #0ff 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%);
@@ -3349,6 +3348,9 @@ img:hover {
   background: #555;
   border: 1px solid #fff;
   border-radius: 50%;
+}
+p {
+  margin: 0 20px 0;
 }
 .posts-collapse .post-header:hover::before {
   background-color: #00cdcd;
@@ -3597,8 +3599,8 @@ code.description {
   }
   .post {
     margin-bottom: 30px !important;
-    margin-left: -9px;
-    margin-right: -11px;
+    margin-left: -5px;
+    margin-right: -7px;
     padding: 20px 15px 15px 15px !important;
   }
   .posts-expand .post-body h2,
@@ -3614,9 +3616,9 @@ code.description {
   h5,
   h6 {
     margin-left: -14px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     padding-left: 14px;
-    border-left: 2px solid #0ee;
+    border-left: 1px solid #0ee;
   }
   .posts-expand .post-tags {
     margin-top: 10px;
@@ -3682,9 +3684,9 @@ li.recent_posts_li {
     letter-spacing: 1px;
     padding-bottom: 3px;
     color: #fff;
-    border-bottom-width: 2px;
+    border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: #00cdcd;
+    border-bottom-color: #eee;
   }
   body {
     color: #444;
